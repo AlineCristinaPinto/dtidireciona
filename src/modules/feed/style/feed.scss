@@ -1,0 +1,61 @@
+$base-span-light-color: rgba(255,255,255,.6);
+$base-white-color:  rgb(255, 255, 255);
+
+.feed {
+    display: flex;
+    justify-content: center;
+    align-content: space-around;
+}
+
+.feed .news {
+    display: flex;
+    flex-wrap: wrap;
+    height: 100vh;
+    width: 60vw;
+    justify-content: space-evenly;
+    overflow-y: scroll;
+}
+
+.feed .news::-webkit-scrollbar{
+    display: none;
+}
+
+.feed .aside{
+    width: 20vw;
+}
+
+.feed .aside .general-statistics{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    height: 100%;
+}
+
+.feed .aside .item{
+    display: inline-flex;
+    flex-direction: column;
+}
+
+.feed .aside .item .recovered{
+    font-size: 20px;
+    color: $base-span-light-color;
+}
+
+.feed .aside .item .recovered-value{
+    font-size: 25px;
+    font-weight: bold;
+    color: $base-white-color;
+    margin: 0;
+}
+
+.feed .aside .item .monitoring{
+    font-size: 16px;
+    color: $base-span-light-color;
+}
+
+.feed .aside .item .monitoring-value{
+    font-size: 20px;
+    font-weight: bold;
+    color: $base-white-color;
+    margin: 0;
+}

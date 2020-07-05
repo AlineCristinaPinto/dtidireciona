@@ -1,0 +1,14 @@
+.card-body {
+    grid-area: text;
+    margin: 20px;
+}
+
+.card-body .date {
+    color: rgb(255, 7, 110);
+    font-size: 13px;
+}
+
+.card-body h2 {
+    margin-top: 0px;
+    font-size: 20px;
+}

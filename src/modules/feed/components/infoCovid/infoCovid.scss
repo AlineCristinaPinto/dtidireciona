@@ -1,0 +1,34 @@
+$base-color-label: '#232a2f';
+
+.info-body{
+    display: grid;
+    grid-template-rows: 4rem 8rem;
+    grid-template-areas: "title" "info";
+}
+
+.info-body .title{
+    grid-area: title;
+}
+
+.info-body .info{
+    grid-area: info;    
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.info .item{
+    line-height: 0.1;
+    text-align: center;
+}
+
+.info .item .value{
+    color: $base-color-label;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.info .item .text{
+    color: $base-color-label;
+    font-size: 14px;
+}

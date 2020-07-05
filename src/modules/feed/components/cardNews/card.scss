@@ -1,0 +1,10 @@
+.card-news {
+    display: grid;
+    grid-template-columns: 22rem;
+    grid-template-rows: 10rem 8rem 2rem;
+    grid-template-areas: "image" "text" "site";
+    border: 1px solid rgba(0,0,0,.125);
+    border-radius: 10px;
+    background: white;
+    margin-bottom: 2vh;
+}
